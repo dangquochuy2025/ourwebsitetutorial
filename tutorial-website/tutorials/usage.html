@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usage of Git, GitHub, and VSCode</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Using Git, GitHub, and Visual Studio Code Together</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="git.html">Git Tutorial</a></li>
+                <li><a href="github.html">GitHub Tutorial</a></li>
+                <li><a href="github-desktop.html">GitHub Desktop Tutorial</a></li>
+                <li><a href="vscode.html">VSCode Tutorial</a></li>
+                <li><a href="install-apps.html">Install Apps</a></li>
+                <li><a href="basic-commands.html">Basic Commands</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Workflow Overview</h2>
+            <p>This tutorial will guide you through a typical workflow using Git, GitHub, and Visual Studio Code.</p>
+        </section>
+        <section>
+            <h2>Step 1: Setting Up Your Project</h2>
+            <p>Start by creating a new directory for your project:</p>
+            <pre><code>mkdir my-project</code></pre>
+            <p>Navigate into your project directory:</p>
+            <pre><code>cd my-project</code></pre>
+        </section>
+        <section>
+            <h2>Step 2: Initializing Git</h2>
+            <p>Initialize a new Git repository:</p>
+            <pre><code>git init</code></pre>
+        </section>
+        <section>
+            <h2>Step 3: Creating Your First File</h2>
+            <p>Create a new file using Visual Studio Code:</p>
+            <pre><code>code .</code></pre>
+            <p>Then create an <code>index.html</code> file and add some content.</p>
+        </section>
+        <section>
+            <h2>Step 4: Adding and Committing Changes</h2>
+            <p>Add your changes to the staging area:</p>
+            <pre><code>git add index.html</code></pre>
+            <p>Commit your changes:</p>
+            <pre><code>git commit -m "Initial commit"</code></pre>
+        </section>
+        <section>
+            <h2>Step 5: Pushing to GitHub</h2>
+            <p>Link your local repository to a GitHub repository:</p>
+            <pre><code>git remote add origin https://github.com/username/my-project.git</code></pre>
+            <p>Push your changes to GitHub:</p>
+            <pre><code>git push -u origin master</code></pre>
+        </section>
+        <section>
+            <h2>Conclusion</h2>
+            <p>Now you have a basic understanding of how to use Git, GitHub, and Visual Studio Code together. Continue exploring more advanced features and workflows!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
